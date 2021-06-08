@@ -56,13 +56,15 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\IceCharacter.cs" />
     <Compile Include="Assets\Scripts\Water_Ice.cs" />
-    <Compile Include="Assets\Scripts\FireCharacter.cs" />
-    <Compile Include="Assets\Scripts\HayBale_Burn.cs" />
     <Compile Include="Assets\Scripts\CheckOnGroundIce.cs" />
-    <Compile Include="Assets\Scripts\CheckOnGroundFire.cs" />
     <Compile Include="Assets\UI\SceneChanger.cs" />
+    <Compile Include="Assets\Scripts\HayBale_Burn.cs" />
+    <Compile Include="Assets\Scripts\FireCharacter.cs" />
+    <Compile Include="Assets\Scripts\CheckOnGroundFire.cs" />
+    <Compile Include="Assets\Scripts\IceCharacter.cs" />
+    <Compile Include="Assets\AnimatorScript\FAnimationManager.cs" />
+    <Compile Include="Assets\Scripts\EnemyMove.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

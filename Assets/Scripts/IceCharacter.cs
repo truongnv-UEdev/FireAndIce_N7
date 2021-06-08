@@ -36,7 +36,15 @@ public class IceCharacter : MonoBehaviour
     {
         if (collision.transform.tag == "Fire")
         {
-            this.transform.position = spawnPosition.transform.position;
+            Respawn();
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.transform.tag == "Enemy")
+        {
+            Respawn();
         }
     }
 
@@ -66,5 +74,20 @@ public class IceCharacter : MonoBehaviour
     public void SetIsJumping(bool IsJumping)
     {
         isJumping = IsJumping;
+    }
+
+    public bool GetIsJumping()
+    {
+        return isJumping;
+    }
+
+    public bool GetIsRunning()
+    {
+        return Mathf.Abs(rb.velocity.x) > 0;
+    }
+
+    void Respawn()
+    {
+        this.transform.position = spawnPosition.transform.position;
     }
 }
