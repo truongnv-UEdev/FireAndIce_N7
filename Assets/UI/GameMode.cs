@@ -12,6 +12,16 @@ public class GameMode : MonoBehaviour
     bool isGameEnd;
     int _numKeys;
     int currentLevel;
+
+    void Awake()
+    {
+        //Check Sound
+        if (!PlayerPrefs.HasKey("_Mute"))
+        {
+            PlayerPrefs.SetInt("_Mute", 0);
+        }
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -39,6 +49,8 @@ public class GameMode : MonoBehaviour
         if (isGameEnd)
         {
             PlayerPrefs.SetInt("nextlevel", currentLevel+1);
+            if(currentLevel > PlayerPrefs.GetInt("level")) PlayerPrefs.SetInt("level", currentLevel);
+            PlayerPrefs.SetInt("nextlevel", currentLevel + 1);
             PlayerPrefs.SetString("finishtime", getCurrentTime());
         }
     }
