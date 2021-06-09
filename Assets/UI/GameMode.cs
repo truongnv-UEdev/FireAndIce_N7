@@ -7,13 +7,16 @@ using UnityEngine.SceneManagement;
 
 public class GameMode : MonoBehaviour
 {
+    public int numberOfKey = 3;
     private float currentTime;
-    bool gameOver;
+    bool isGameEnd;
+    int _numKeys;
     
     // Start is called before the first frame update
     void Start()
     {
-        gameOver = false;
+        _numKeys = 0;
+        isGameEnd = false;
         currentTime = 0;
         Thread time = new Thread(() => {
             TimeCal();            
@@ -25,7 +28,11 @@ public class GameMode : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if(_numKeys >= numberOfKey)
+        {
+            isGameEnd = true;
+            Debug.Log(getCurrentTime());
+        }
     }
     public void ResetGame()
     {
@@ -37,7 +44,7 @@ public class GameMode : MonoBehaviour
 
     void TimeCal()
     {
-        while (!gameOver)
+        while (!isGameEnd)
         {
             Thread.Sleep(1000);
             currentTime++;
@@ -54,5 +61,16 @@ public class GameMode : MonoBehaviour
         Sec = currentTime % 60;
         string time= (Min.ToString()+" : "+Sec.ToString());
         return (time);
+    }
+
+    public string getNumKeys()
+    {
+        return _numKeys.ToString();
+    }
+    
+    public void setNumKey()
+    {
+        _numKeys++;
+        Debug.Log(_numKeys);
     }
 }

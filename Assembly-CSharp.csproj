@@ -72,6 +72,7 @@
     <Compile Include="Assets\Scripts\IceCharacter.cs" />
     <Compile Include="Assets\UI\AlpacaStudio_Menu_Template\Scripts\Sound_Controller.cs" />
     <Compile Include="Assets\UI\LevelManager.cs" />
+    <Compile Include="Assets\Scripts\Gold_Key.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

@@ -19,7 +19,6 @@ public class FAnimationManager : MonoBehaviour
 
         animator.SetBool("isJumping", character.GetIsJumping());
 
-
         animator.SetBool("isRunning", character.GetIsRunning());
     }
 }

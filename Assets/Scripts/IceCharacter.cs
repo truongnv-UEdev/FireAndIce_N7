@@ -1,10 +1,13 @@
 using System.Collections;
+using System.Threading;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class IceCharacter : MonoBehaviour
 {
+    bool isAlive = true;
     bool isJump = false;
+    bool isRespawn = true;
     private float jumpForce = 7.0f;
     private float speed = 4.0f;
     bool isJumping = false;
@@ -22,21 +25,36 @@ public class IceCharacter : MonoBehaviour
         if (Input.GetButtonDown("JumpIce") && !isJumping)
         {
             isJump = true;
-            
+        }
+        if (isRespawn)
+        {
+            Respawn();
         }
     }
 
     void FixedUpdate()
     {
-        Movement();
-        if (isJump) Jump();
+        if (isAlive)
+        {
+            Movement();
+            if (isJump) Jump();
+        }
+        else rb.velocity = Vector3.zero;
     }
 
     private void OnTriggerStay2D(Collider2D collision)
     {
         if (collision.transform.tag == "Fire")
         {
-            Respawn();
+            if (isAlive)
+            {
+                isAlive = false;
+                Thread respawn = new Thread(() =>
+                {
+                    WaitToRespawn();
+                });
+                respawn.Start();
+            }
         }
     }
 
@@ -44,7 +62,15 @@ public class IceCharacter : MonoBehaviour
     {
         if (collision.transform.tag == "Enemy")
         {
-            Respawn();
+            if (isAlive)
+            {
+                isAlive = false;
+                Thread respawn = new Thread(() =>
+                {
+                    WaitToRespawn();
+                });
+                respawn.Start();
+            }
         }
     }
 
@@ -86,8 +112,21 @@ public class IceCharacter : MonoBehaviour
         return Mathf.Abs(rb.velocity.x) > 0;
     }
 
+    public bool GetIsAlive()
+    {
+        return isAlive;
+    }
+
+    void WaitToRespawn()
+    {
+        Thread.Sleep(2000);
+        isRespawn = true;
+    }
+
     void Respawn()
     {
+        isRespawn = false;
         this.transform.position = spawnPosition.transform.position;
+        isAlive = true;
     }
 }
