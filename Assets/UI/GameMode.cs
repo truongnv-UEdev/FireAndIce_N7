@@ -11,10 +11,11 @@ public class GameMode : MonoBehaviour
     private float currentTime;
     bool isGameEnd;
     int _numKeys;
-    
+    int currentLevel;
     // Start is called before the first frame update
     void Start()
     {
+        currentLevel = SceneManager.GetActiveScene().buildIndex;
         _numKeys = 0;
         isGameEnd = false;
         currentTime = 0;
@@ -31,7 +32,14 @@ public class GameMode : MonoBehaviour
         if(_numKeys >= numberOfKey)
         {
             isGameEnd = true;
+
             Debug.Log(getCurrentTime());
+        }
+
+        if (isGameEnd)
+        {
+            PlayerPrefs.SetInt("nextlevel", currentLevel+1);
+            PlayerPrefs.SetString("finishtime", getCurrentTime());
         }
     }
     public void ResetGame()
@@ -39,6 +47,14 @@ public class GameMode : MonoBehaviour
 
         //currentTime = 0;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name.ToString());
+        //Application.LoadLevel(Application.loadedLevel);
+    }
+
+    public void BackToMenu()
+    {
+
+        //currentTime = 0;
+        SceneManager.LoadScene("MainMenuUI");
         //Application.LoadLevel(Application.loadedLevel);
     }
 
@@ -59,7 +75,7 @@ public class GameMode : MonoBehaviour
         double Min;
         Min = System.Math.Truncate(currentTime / 60);
         Sec = currentTime % 60;
-        string time= (Min.ToString()+" : "+Sec.ToString());
+        string time= (Min.ToString()+"m"+Sec.ToString()+"s");
         return (time);
     }
 
@@ -70,7 +86,12 @@ public class GameMode : MonoBehaviour
     
     public void setNumKey()
     {
-        _numKeys++;
+        _numKeys+=1;
         Debug.Log(_numKeys);
+    }
+
+    public bool getIsEndGame()
+    {
+        return isGameEnd;
     }
 }
