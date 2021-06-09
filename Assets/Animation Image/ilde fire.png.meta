@@ -1,0 +1,588 @@
+fileFormatVersion: 2
+guid: 2d9cbbd8802508046a18ce49b483b56e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5113454531900134492
+    second: ilde fire_0
+  - first:
+      213: 6978902069022849229
+    second: ilde fire_1
+  - first:
+      213: 1868896135205774423
+    second: ilde fire_2
+  - first:
+      213: 5799385228143059495
+    second: ilde fire_3
+  - first:
+      213: 7339654309912436686
+    second: ilde fire_4
+  - first:
+      213: 1515178885673832478
+    second: ilde fire_5
+  - first:
+      213: 3337702791726242468
+    second: ilde fire_6
+  - first:
+      213: -166313572955648753
+    second: ilde fire_7
+  - first:
+      213: 5063434287295132722
+    second: ilde fire_8
+  - first:
+      213: 3411295371117337550
+    second: ilde fire_9
+  - first:
+      213: 2869172074662946687
+    second: ilde fire_10
+  - first:
+      213: -6926440705637570041
+    second: ilde fire_11
+  - first:
+      213: -8303533665334801811
+    second: ilde fire_12
+  - first:
+      213: -217538477459239096
+    second: ilde fire_13
+  - first:
+      213: 2055395788932506029
+    second: ilde fire_14
+  - first:
+      213: -6612663598523849083
+    second: ilde fire_15
+  - first:
+      213: -4792983435725537095
+    second: ilde fire_16
+  - first:
+      213: -4111868474189080204
+    second: ilde fire_17
+  - first:
+      213: -8144177963196842803
+    second: ilde fire_18
+  - first:
+      213: 5497797537796533258
+    second: ilde fire_19
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 30
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ilde fire_0
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 562
+        width: 96
+        height: 139
+      alignment: 9
+      pivot: {x: 0.4999999, y: -0.0005062844}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c54d405fdc3a6f640800000000000000
+      internalID: 5113454531900134492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ilde fire_1
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 563
+        width: 96
+        height: 139
+      alignment: 9
+      pivot: {x: 0.50244015, y: -0.00050672353}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc8785ab47a0ad060800000000000000
+      internalID: 6978902069022849229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ilde fire_2
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 561
+        width: 96
+        height: 140
+      alignment: 9
+      pivot: {x: 0.5, y: -0.00027770997}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7546a051227afe910800000000000000
+      internalID: 1868896135205774423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ilde fire_3
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 561
+        width: 95
+        height: 138
+      alignment: 9
+      pivot: {x: 0.4975345, y: -0.00073861383}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7226d17732e8b7050800000000000000
+      internalID: 5799385228143059495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ilde fire_4
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 563
+        width: 94
+        height: 135
+      alignment: 9
+      pivot: {x: 0.5, y: -0.0014553494}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecfde7c25b0bbd560800000000000000
+      internalID: 7339654309912436686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ilde fire_5
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 562
+        width: 93
+        height: 133
+      alignment: 9
+      pivot: {x: 0.49748114, y: 0.001571311}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e10d2c33b2ff60510800000000000000
+      internalID: 1515178885673832478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ilde fire_6
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 561
+        width: 93
+        height: 134
+      alignment: 9
+      pivot: {x: 0.5, y: -0.0017012411}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aa1ca25107e15e20800000000000000
+      internalID: 3337702791726242468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ilde fire_7
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 560
+        width: 93
+        height: 134
+      alignment: 9
+      pivot: {x: 0.5, y: -0.0017012411}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0d07a2cfa221bdf0800000000000000
+      internalID: -166313572955648753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ilde fire_8
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 563
+        width: 92
+        height: 132
+      alignment: 9
+      pivot: {x: 0.49745443, y: 0.001344623}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23472c538aee44640800000000000000
+      internalID: 5063434287295132722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ilde fire_9
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 562
+        width: 91
+        height: 133
+      alignment: 9
+      pivot: {x: 0.5025742, y: -0.00018998914}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecb1263f01b575f20800000000000000
+      internalID: 3411295371117337550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ilde fire_10
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 414
+        width: 92
+        height: 133
+      alignment: 9
+      pivot: {x: 0.5, y: 0.0023067158}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7761c5ecc851d720800000000000000
+      internalID: 2869172074662946687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ilde fire_11
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 414
+        width: 91
+        height: 132
+      alignment: 9
+      pivot: {x: 0.49695662, y: 0.0006346269}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70aaaa640e650ef90800000000000000
+      internalID: -6926440705637570041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ilde fire_12
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 414
+        width: 92
+        height: 132
+      alignment: 9
+      pivot: {x: 0.5, y: 0.0006346269}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6ac839102ce3cc80800000000000000
+      internalID: -8303533665334801811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ilde fire_13
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 413
+        width: 93
+        height: 133
+      alignment: 9
+      pivot: {x: 0.5, y: -0.001857901}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84f001648e52bfcf0800000000000000
+      internalID: -217538477459239096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ilde fire_14
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 413
+        width: 93
+        height: 133
+      alignment: 9
+      pivot: {x: 0.50297827, y: 0.00022440746}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da1e720849b368c10800000000000000
+      internalID: 2055395788932506029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ilde fire_15
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 414
+        width: 93
+        height: 134
+      alignment: 9
+      pivot: {x: 0.5, y: -0.00017968932}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58664d61e791b34a0800000000000000
+      internalID: -6612663598523849083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ilde fire_16
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 414
+        width: 94
+        height: 134
+      alignment: 9
+      pivot: {x: 0.5, y: -0.00017968932}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b08f33a5f6eb7db0800000000000000
+      internalID: -4792983435725537095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ilde fire_17
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 413
+        width: 96
+        height: 136
+      alignment: 9
+      pivot: {x: 0.50288516, y: 0.0010665444}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47915d88865bfe6c0800000000000000
+      internalID: -4111868474189080204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ilde fire_18
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 413
+        width: 95
+        height: 137
+      alignment: 9
+      pivot: {x: 0.5, y: -0.0013563616}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcc761cca411afe80800000000000000
+      internalID: -8144177963196842803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ilde fire_19
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 414
+        width: 96
+        height: 138
+      alignment: 9
+      pivot: {x: 0.50288516, y: 0.0022766555}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0c21676bb91c4c40800000000000000
+      internalID: 5497797537796533258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

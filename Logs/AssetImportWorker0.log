@@ -1,50 +1,285 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.11f1 (99c7afb366b3) revision 10078127'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19042.985; Version 2009; 64bit' Language: 'en' Physical Memory: 8144 MB
+OS: 'Windows 10 Pro; OS build 19042.985; Version 2009; 64bit' Language: 'en' Physical Memory: 16313 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-E:\Unity\Editor\2020.3.11f1\Editor\Unity.exe
+C:\Program Files\2020.3.11f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-E:/Unity/Project/FireAndIce_N7
+D:/Game/Final final/FireAndIce_N7
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63888
-Successfully changed project path to: E:/Unity/Project/FireAndIce_N7
-E:/Unity/Project/FireAndIce_N7
+2711
+Successfully changed project path to: D:/Game/Final final/FireAndIce_N7
+D:/Game/Final final/FireAndIce_N7
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 569.34 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 37.09 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
-[Subsystems] Discovering subsystems at path E:/Unity/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path E:/Unity/Project/FireAndIce_N7/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Game/Final final/FireAndIce_N7/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c82)
+    Renderer: NVIDIA GeForce GTX 1650 SUPER (ID=0x2187)
     Vendor:   
-    VRAM:     4018 MB
-    Driver:   27.21.14.6647
+    VRAM:     3955 MB
+    Driver:   27.21.14.6140
 Initialize mono
-Mono path[0] = 'E:/Unity/Editor/2020.3.11f1/Editor/Data/Managed'
-Mono path[1] = 'E:/Unity/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'E:/Unity/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56196
+Mono path[0] = 'C:/Program Files/2020.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56304
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: E:/Unity/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.276478 seconds.
+Register platform support module: C:/Program Files/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001601 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 54.55 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 37.64 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in 15.614 seconds
+- Completed reload, in  0.872 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.750217 seconds.
+Registered in 0.002178 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 36.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.937 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2098 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.4 MB.
+System memory in use after: 93.4 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2534.
+Total: 2.027500 ms (FindLiveObjects: 0.205400 ms CreateObjectMapping: 0.085300 ms MarkObjects: 1.626400 ms  DeleteObjects: 0.109400 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Animation
+  artifactKey: Guid(cad1ea250a24b2245b857e0155594eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation using Guid(cad1ea250a24b2245b857e0155594eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1c51e34a51ceb7d4861b65bb9efb631') in 0.008803 seconds
+  Import took 0.011673 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.357253 seconds.
+  path: Assets/Animation Image/fire run.png
+  artifactKey: Guid(1a52a3d3b4fbffd4fbfe6512ee4b4ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation Image/fire run.png using Guid(1a52a3d3b4fbffd4fbfe6512ee4b4ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83edbb19da72e8788ed997914127d652') in 0.124183 seconds
+  Import took 0.127532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Animation Image/victory fire.png
+  artifactKey: Guid(77be8eca83fc2264f918c8126b673abf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation Image/victory fire.png using Guid(77be8eca83fc2264f918c8126b673abf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4149e71d622663ea3df1dd88184ff2e3') in 0.049293 seconds
+  Import took 0.052434 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Animation Image/Run Ice.png
+  artifactKey: Guid(0f2fb21df5ba93d4a878c0355b3636b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation Image/Run Ice.png using Guid(0f2fb21df5ba93d4a878c0355b3636b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2f45bc66b28f2470170b10f137c0306') in 0.066640 seconds
+  Import took 0.069691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Animation Image/Push Ice.png
+  artifactKey: Guid(0bdaadc0791b40a40ae025687c530b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation Image/Push Ice.png using Guid(0bdaadc0791b40a40ae025687c530b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ada91f9e8abb43d794c1f58a7fa7765') in 0.043721 seconds
+  Import took 0.046678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Animation Image/Lose Ice.png
+  artifactKey: Guid(6e21b7b7b433e554c81f7bc48ff36f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation Image/Lose Ice.png using Guid(6e21b7b7b433e554c81f7bc48ff36f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a6dd5f1572978954165d59ac3caa8b8') in 0.065086 seconds
+  Import took 0.068173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Animation Image/jump fire.png
+  artifactKey: Guid(b646712f8b890ed47888b4e575acb198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation Image/jump fire.png using Guid(b646712f8b890ed47888b4e575acb198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c4aba8f30a102c8f2cabbec116b2df5') in 0.023966 seconds
+  Import took 0.027020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Animation Image/idle Ice.png
+  artifactKey: Guid(674b8c51b80178f4ebf00d9bae467e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation Image/idle Ice.png using Guid(674b8c51b80178f4ebf00d9bae467e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c33c6e6bff99888940aa8e89478ed4d') in 0.053411 seconds
+  Import took 0.056531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Animation Image/lose fire.png
+  artifactKey: Guid(6e210419079d46f4abc4aa4a0ae470e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation Image/lose fire.png using Guid(6e210419079d46f4abc4aa4a0ae470e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8ecd85c6a107d6ae612bfdf77de6154') in 0.038096 seconds
+  Import took 0.041290 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Animation Image/push fire.png
+  artifactKey: Guid(3d59d9b54758e4748ada89c4f161488d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation Image/push fire.png using Guid(3d59d9b54758e4748ada89c4f161488d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55558bad0a84f6ac44f4b3cf3a33c2f3') in 0.039976 seconds
+  Import took 0.042876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Animation Image/Victory ice.png
+  artifactKey: Guid(a05bac4980919df43bc101baf4c7bef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation Image/Victory ice.png using Guid(a05bac4980919df43bc101baf4c7bef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4f0d0de1b095e14e8d8ab3759631371') in 0.048171 seconds
+  Import took 0.051401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Animation Image/ilde fire.png
+  artifactKey: Guid(2d9cbbd8802508046a18ce49b483b56e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation Image/ilde fire.png using Guid(2d9cbbd8802508046a18ce49b483b56e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47683d356c0a58bef4c6f052fc44c955') in 0.063642 seconds
+  Import took 0.066625 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Animation Image/Jump Ice.png
+  artifactKey: Guid(9a932de55d8fda548b57144e40aeca96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation Image/Jump Ice.png using Guid(9a932de55d8fda548b57144e40aeca96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32b6c95b6fc605cc31ace9349b5714d4') in 0.013948 seconds
+  Import took 0.016839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.585503 seconds.
+  path: Assets/AnimatorScript/FireCharacter.prefab
+  artifactKey: Guid(4e5fcc387156d334c8397ec5dd06e887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimatorScript/FireCharacter.prefab using Guid(4e5fcc387156d334c8397ec5dd06e887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaebe20cdb710ae2178dd3d918660f58') in 0.030927 seconds
+  Import took 0.034130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.932548 seconds.
+  path: Assets/Animation/IceCharacter.controller
+  artifactKey: Guid(c41ed0fcfe053b546ba1f2d84d9f30b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/IceCharacter.controller using Guid(c41ed0fcfe053b546ba1f2d84d9f30b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc082c603d73121234b33556c639115f') in 0.009166 seconds
+  Import took 0.012536 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.238260 seconds.
+  path: Assets/AnimatorScript/FireCharacter 1.prefab
+  artifactKey: Guid(bd53a4e11b5bc36449f842c1fa0116e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimatorScript/FireCharacter 1.prefab using Guid(bd53a4e11b5bc36449f842c1fa0116e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f15ab658bd2c6f329fe3ea0fa9f93941') in 0.012281 seconds
+  Import took 0.015939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.720268 seconds.
+  path: Assets/AnimatorScript/FAnimationManager.cs
+  artifactKey: Guid(4c5267c92ddc6c44c904573fcf65cc6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimatorScript/FAnimationManager.cs using Guid(4c5267c92ddc6c44c904573fcf65cc6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd01e7e5e95b9eff0594f3e81d49b3a53') in 0.007708 seconds
+  Import took 0.011037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 224.685502 seconds.
+  path: Assets/Animation/Idle Fire.anim
+  artifactKey: Guid(f7f2f2ba37e208a4fbe3af3b36513190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Idle Fire.anim using Guid(f7f2f2ba37e208a4fbe3af3b36513190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57ef0c960c5f5dec875222db65554e6a') in 0.007050 seconds
+  Import took 0.011324 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 109.797448 seconds.
+  path: Assets/AnimatorScript/Character Fire.prefab
+  artifactKey: Guid(93caff61fca7b87438e8262e835067e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimatorScript/Character Fire.prefab using Guid(93caff61fca7b87438e8262e835067e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d61ada12247d050d4f09a258a95c050') in 0.030313 seconds
+  Import took 0.035099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/AnimatorScript/Character Ice.prefab
+  artifactKey: Guid(662f1a11fbe315a4b83a62c1fe724c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimatorScript/Character Ice.prefab using Guid(662f1a11fbe315a4b83a62c1fe724c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51276fd4291feae9f1991403235791f2') in 0.027776 seconds
+  Import took 0.031662 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 109.893219 seconds.
+  path: Assets/Animation/Idle Ice.anim
+  artifactKey: Guid(4fb16a8cef7ec4342ba67910513fbfaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Idle Ice.anim using Guid(4fb16a8cef7ec4342ba67910513fbfaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13fd1754217e165a40696f69c8cbf049') in 0.006530 seconds
+  Import took 0.010213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.466527 seconds.
+  path: Assets/Animation/Jump Fire.anim
+  artifactKey: Guid(78984ba664e8c814eaf976505a339fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Jump Fire.anim using Guid(78984ba664e8c814eaf976505a339fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd508b6f16352227b24a5d3f7f66a0c00') in 0.006185 seconds
+  Import took 0.009397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 222.958821 seconds.
+  path: Assets/Animation/FireCharacter.controller
+  artifactKey: Guid(fa9ba7346cf7b6c488e8ed9b4c82fc1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/FireCharacter.controller using Guid(fa9ba7346cf7b6c488e8ed9b4c82fc1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bc7e9f2a1c859f2ffc1ccedb76d0b34') in 0.003982 seconds
+  Import took 0.007927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.613945 seconds.
+  path: Assets/AnimatorScript/Character Fire.prefab
+  artifactKey: Guid(93caff61fca7b87438e8262e835067e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimatorScript/Character Fire.prefab using Guid(93caff61fca7b87438e8262e835067e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a1f20f494178f85277ca9ef2a7c8dc6') in 0.013850 seconds
+  Import took 0.017363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010592 seconds.
+  path: Assets/AnimatorScript/Character Fire.prefab
+  artifactKey: Guid(93caff61fca7b87438e8262e835067e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimatorScript/Character Fire.prefab using Guid(93caff61fca7b87438e8262e835067e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a1f20f494178f85277ca9ef2a7c8dc6') in 0.012799 seconds
+  Import took 0.016897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.372031 seconds.
+  path: Assets/AnimatorScript/Character Ice .prefab
+  artifactKey: Guid(0126e082cd0c0f24b8f0c1bb395c8a23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimatorScript/Character Ice .prefab using Guid(0126e082cd0c0f24b8f0c1bb395c8a23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dc9ed771683afad1d75d9760a996506') in 0.011756 seconds
+  Import took 0.015118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010946 seconds.
+  path: Assets/AnimatorScript/Character Ice .prefab
+  artifactKey: Guid(0126e082cd0c0f24b8f0c1bb395c8a23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimatorScript/Character Ice .prefab using Guid(0126e082cd0c0f24b8f0c1bb395c8a23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dc9ed771683afad1d75d9760a996506') in 0.011027 seconds
+  Import took 0.014525 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

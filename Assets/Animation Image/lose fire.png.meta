@@ -1,0 +1,348 @@
+fileFormatVersion: 2
+guid: 6e210419079d46f4abc4aa4a0ae470e9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7352217354106530556
+    second: lose fire_0
+  - first:
+      213: -3317881422242945366
+    second: lose fire_1
+  - first:
+      213: 2440372021104987743
+    second: lose fire_2
+  - first:
+      213: -4452628444597439051
+    second: lose fire_3
+  - first:
+      213: -2354586013799111551
+    second: lose fire_4
+  - first:
+      213: -7239897771936766043
+    second: lose fire_5
+  - first:
+      213: -1640008144160962855
+    second: lose fire_6
+  - first:
+      213: 3050765386137644785
+    second: lose fire_7
+  - first:
+      213: -3125251401610437797
+    second: lose fire_8
+  - first:
+      213: 9183392100939383540
+    second: lose fire_9
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 30
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: lose fire_0
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 556
+        width: 91
+        height: 134
+      alignment: 9
+      pivot: {x: 0.50363344, y: -0.0009164383}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4059409254da7f990800000000000000
+      internalID: -7352217354106530556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lose fire_1
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 556
+        width: 90
+        height: 134
+      alignment: 9
+      pivot: {x: 0.5, y: 0.0015509307}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa66754ec6484f1d0800000000000000
+      internalID: -3317881422242945366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lose fire_2
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 556
+        width: 90
+        height: 134
+      alignment: 9
+      pivot: {x: 0.503674, y: 0.0015509307}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5ec3cd6c61fdd120800000000000000
+      internalID: 2440372021104987743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lose fire_3
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 556
+        width: 91
+        height: 134
+      alignment: 9
+      pivot: {x: 0.49636638, y: 0.0015509307}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b538fa45061532c0800000000000000
+      internalID: -4452628444597439051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lose fire_4
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 556
+        width: 91
+        height: 134
+      alignment: 9
+      pivot: {x: 0.4927328, y: 0.0015509307}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 184a66ede74d25fd0800000000000000
+      internalID: -2354586013799111551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lose fire_5
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 555
+        width: 91
+        height: 134
+      alignment: 9
+      pivot: {x: 0.5, y: -0.0009164383}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a72195c557b68b90800000000000000
+      internalID: -7239897771936766043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lose fire_6
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 555
+        width: 91
+        height: 135
+      alignment: 9
+      pivot: {x: 0.5036339, y: 0.0027940539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d6c98238458d39e0800000000000000
+      internalID: -1640008144160962855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lose fire_7
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 555
+        width: 91
+        height: 135
+      alignment: 9
+      pivot: {x: 0.5, y: 0.00034450955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1feaacd74fe765a20800000000000000
+      internalID: 3050765386137644785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lose fire_8
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 556
+        width: 90
+        height: 134
+      alignment: 9
+      pivot: {x: 0.49632567, y: -0.0009164383}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5bd7359860e0a4d0800000000000000
+      internalID: -3125251401610437797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lose fire_9
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 395
+        width: 91
+        height: 134
+      alignment: 9
+      pivot: {x: 0.49719432, y: 0.0007811589}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f2ce99c576f17f70800000000000000
+      internalID: 9183392100939383540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

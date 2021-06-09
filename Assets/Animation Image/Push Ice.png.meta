@@ -1,0 +1,348 @@
+fileFormatVersion: 2
+guid: 0bdaadc0791b40a40ae025687c530b3b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4819478210419218956
+    second: Push Ice_0
+  - first:
+      213: 5498630486355800959
+    second: Push Ice_1
+  - first:
+      213: -24588231640679949
+    second: Push Ice_2
+  - first:
+      213: 8200696678200758457
+    second: Push Ice_3
+  - first:
+      213: 7306715628855402756
+    second: Push Ice_4
+  - first:
+      213: -7344519036595960925
+    second: Push Ice_5
+  - first:
+      213: -430334710177045154
+    second: Push Ice_6
+  - first:
+      213: -7587337149599593651
+    second: Push Ice_7
+  - first:
+      213: 8761054401227587678
+    second: Push Ice_8
+  - first:
+      213: -3151798791394608890
+    second: Push Ice_9
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 30
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Push Ice_0
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 547
+        width: 118
+        height: 134
+      alignment: 9
+      pivot: {x: 0.5000001, y: -0.0007647614}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f52a313a16cd1db0800000000000000
+      internalID: -4819478210419218956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Push Ice_1
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 547
+        width: 118
+        height: 134
+      alignment: 9
+      pivot: {x: 0.50000024, y: 0.0019276178}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f73fe5a5b4f0f4c40800000000000000
+      internalID: 5498630486355800959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Push Ice_2
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 547
+        width: 118
+        height: 134
+      alignment: 9
+      pivot: {x: 0.49694306, y: -0.0007647614}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f9f6633225a8aff0800000000000000
+      internalID: -24588231640679949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Push Ice_3
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 546
+        width: 118
+        height: 135
+      alignment: 9
+      pivot: {x: 0.5030574, y: 0.00027217157}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b0d1eefd2abec170800000000000000
+      internalID: 8200696678200758457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Push Ice_4
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 546
+        width: 117
+        height: 136
+      alignment: 9
+      pivot: {x: 0.5030836, y: -0.001358481}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 401a8bcd62ba66560800000000000000
+      internalID: 7306715628855402756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Push Ice_5
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 545
+        width: 118
+        height: 137
+      alignment: 9
+      pivot: {x: 0.50000054, y: -0.002965774}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a38a9169d6031a90800000000000000
+      internalID: -7344519036595960925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Push Ice_6
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 546
+        width: 118
+        height: 136
+      alignment: 9
+      pivot: {x: 0.50000054, y: 0.0012943044}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5560617cd4270af0800000000000000
+      internalID: -430334710177045154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Push Ice_7
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 545
+        width: 118
+        height: 137
+      alignment: 9
+      pivot: {x: 0.500001, y: -0.000332352}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4bcdf6df0d54b690800000000000000
+      internalID: -7587337149599593651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Push Ice_8
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 360
+        width: 117
+        height: 135
+      alignment: 9
+      pivot: {x: 0.497996, y: -0.00020955404}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e500b035f84859970800000000000000
+      internalID: 8761054401227587678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Push Ice_9
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 360
+        width: 118
+        height: 134
+      alignment: 9
+      pivot: {x: 0.498013, y: 0.003056768}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6093b6bb2bf8244d0800000000000000
+      internalID: -3151798791394608890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

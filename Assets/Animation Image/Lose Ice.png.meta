@@ -1,0 +1,396 @@
+fileFormatVersion: 2
+guid: 6e21b7b7b433e554c81f7bc48ff36f8d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6869378278153749661
+    second: Lose Ice_0
+  - first:
+      213: 4515260091918771688
+    second: Lose Ice_1
+  - first:
+      213: -4376673770294092696
+    second: Lose Ice_2
+  - first:
+      213: -5202895180266773967
+    second: Lose Ice_3
+  - first:
+      213: -2968389281567681993
+    second: Lose Ice_4
+  - first:
+      213: -8117766854237328257
+    second: Lose Ice_5
+  - first:
+      213: 8321311967794313390
+    second: Lose Ice_6
+  - first:
+      213: 6591934239221375968
+    second: Lose Ice_7
+  - first:
+      213: 6372966428869251989
+    second: Lose Ice_8
+  - first:
+      213: 1174881722124412184
+    second: Lose Ice_9
+  - first:
+      213: 4616971355566210213
+    second: Lose Ice_10
+  - first:
+      213: 8207563916400793227
+    second: Lose Ice_11
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 30
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Lose Ice_0
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 544
+        width: 117
+        height: 135
+      alignment: 9
+      pivot: {x: 0.49717394, y: 0.00034450955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d948321062fe45f50800000000000000
+      internalID: 6869378278153749661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lose Ice_1
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 545
+        width: 118
+        height: 133
+      alignment: 9
+      pivot: {x: 0.4971978, y: 0.0002891139}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e5e057712d69ae30800000000000000
+      internalID: 4515260091918771688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lose Ice_2
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 544
+        width: 120
+        height: 132
+      alignment: 9
+      pivot: {x: 0.50275546, y: 0.0015133944}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86cd9dff46ee243c0800000000000000
+      internalID: -4376673770294092696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lose Ice_3
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 543
+        width: 121
+        height: 133
+      alignment: 9
+      pivot: {x: 0.5, y: 0.0002891139}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1326b90566a9bc7b0800000000000000
+      internalID: -5202895180266773967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lose Ice_4
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 544
+        width: 121
+        height: 131
+      alignment: 9
+      pivot: {x: 0.49726704, y: -0.0022918468}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 732d415fca92ec6d0800000000000000
+      internalID: -2968389281567681993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lose Ice_5
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 543
+        width: 122
+        height: 132
+      alignment: 9
+      pivot: {x: 0.5, y: 0.0015133944}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7c6ebb4e06e75f80800000000000000
+      internalID: -8117766854237328257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lose Ice_6
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 543
+        width: 122
+        height: 132
+      alignment: 9
+      pivot: {x: 0.5027106, y: -0.0009913589}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea83691852d3b7370800000000000000
+      internalID: 8321311967794313390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lose Ice_7
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 543
+        width: 121
+        height: 133
+      alignment: 9
+      pivot: {x: 0.5, y: -0.0021968067}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e36687d3414b7b50800000000000000
+      internalID: 6591934239221375968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lose Ice_8
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 368
+        width: 120
+        height: 132
+      alignment: 9
+      pivot: {x: 0.5000002, y: -0.0037095041}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 593dd3e9333517850800000000000000
+      internalID: 6372966428869251989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lose Ice_9
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 367
+        width: 121
+        height: 133
+      alignment: 9
+      pivot: {x: 0.502234, y: 0.0021100726}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 815235493b40e4010800000000000000
+      internalID: 1174881722124412184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lose Ice_10
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 367
+        width: 118
+        height: 133
+      alignment: 9
+      pivot: {x: 0.50000024, y: 0.0021100726}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ac7da27cf6c21040800000000000000
+      internalID: 4616971355566210213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lose Ice_11
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 365
+        width: 118
+        height: 134
+      alignment: 9
+      pivot: {x: 0.50000054, y: -0.0042594797}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b86126c75ef17e170800000000000000
+      internalID: 8207563916400793227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

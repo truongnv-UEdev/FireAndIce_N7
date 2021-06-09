@@ -1,0 +1,540 @@
+fileFormatVersion: 2
+guid: 0f2fb21df5ba93d4a878c0355b3636b4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3206852904441644154
+    second: Run Ice_0
+  - first:
+      213: -8198800802850156269
+    second: Run Ice_1
+  - first:
+      213: 218349456720299033
+    second: Run Ice_2
+  - first:
+      213: 1019019475886108039
+    second: Run Ice_3
+  - first:
+      213: 3990517316776209414
+    second: Run Ice_4
+  - first:
+      213: -8344023994849889069
+    second: Run Ice_5
+  - first:
+      213: -4428305586948049422
+    second: Run Ice_6
+  - first:
+      213: 2929581319822856665
+    second: Run Ice_7
+  - first:
+      213: -2906331514718413306
+    second: Run Ice_8
+  - first:
+      213: -6283973674919833997
+    second: Run Ice_9
+  - first:
+      213: 2301473656376069324
+    second: Run Ice_10
+  - first:
+      213: 3691521215924061231
+    second: Run Ice_11
+  - first:
+      213: 8719540668461679227
+    second: Run Ice_12
+  - first:
+      213: -4158337883346128660
+    second: Run Ice_13
+  - first:
+      213: 6639043922461868470
+    second: Run Ice_14
+  - first:
+      213: 1515476943624514654
+    second: Run Ice_15
+  - first:
+      213: 5615827145731397960
+    second: Run Ice_16
+  - first:
+      213: 1588913418243059741
+    second: Run Ice_17
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 30
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Run Ice_0
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 547
+        width: 117
+        height: 150
+      alignment: 9
+      pivot: {x: 0.5021843, y: 0.0007751465}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68b73d72648fe73d0800000000000000
+      internalID: -3206852904441644154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run Ice_1
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 547
+        width: 117
+        height: 149
+      alignment: 9
+      pivot: {x: 0.49843982, y: 0.0001732743}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 311dde1eb12083e80800000000000000
+      internalID: -8198800802850156269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run Ice_2
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 545
+        width: 109
+        height: 151
+      alignment: 9
+      pivot: {x: 0.49832547, y: 0.00074899435}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91486bc8cabb70300800000000000000
+      internalID: 218349456720299033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run Ice_3
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 546
+        width: 103
+        height: 148
+      alignment: 9
+      pivot: {x: 0.5017721, y: 0.0004961168}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78d656770d8442e00800000000000000
+      internalID: 1019019475886108039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run Ice_4
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 547
+        width: 105
+        height: 147
+      alignment: 9
+      pivot: {x: 0.5, y: 0.0008229366}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60cad706b5a216730800000000000000
+      internalID: 3990517316776209414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run Ice_5
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 542
+        width: 107
+        height: 151
+      alignment: 9
+      pivot: {x: 0.5, y: -0.0004595826}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d4f2ad9262143c80800000000000000
+      internalID: -8344023994849889069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run Ice_6
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 542
+        width: 107
+        height: 151
+      alignment: 9
+      pivot: {x: 0.49829388, y: 0.00074899435}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f57515e78f7b82c0800000000000000
+      internalID: -4428305586948049422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run Ice_7
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 546
+        width: 103
+        height: 147
+      alignment: 9
+      pivot: {x: 0.5, y: -0.0004185268}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d159a450b6f7a820800000000000000
+      internalID: 2929581319822856665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run Ice_8
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 546
+        width: 100
+        height: 147
+      alignment: 9
+      pivot: {x: 0.5, y: 0.000040690105}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60e9fa1c2e2aaa7d0800000000000000
+      internalID: -2906331514718413306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run Ice_9
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 360
+        width: 103
+        height: 149
+      alignment: 9
+      pivot: {x: 0.5015262, y: -0.0010910546}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37e4f709c37dac8a0800000000000000
+      internalID: -6283973674919833997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run Ice_10
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 360
+        width: 105
+        height: 155
+      alignment: 9
+      pivot: {x: 0.5016716, y: 0.0004955661}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccc0734c81a70ff10800000000000000
+      internalID: 2301473656376069324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run Ice_11
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 360
+        width: 103
+        height: 152
+      alignment: 9
+      pivot: {x: 0.5, y: 0.0002596002}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f24c8f3ccfaea3330800000000000000
+      internalID: 3691521215924061231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run Ice_12
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 360
+        width: 104
+        height: 153
+      alignment: 9
+      pivot: {x: 0.4984257, y: -0.00075416313}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b720b343a08020970800000000000000
+      internalID: 8719540668461679227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run Ice_13
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 360
+        width: 104
+        height: 153
+      alignment: 9
+      pivot: {x: 0.501574, y: -0.00075416313}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce0ba171abd9a46c0800000000000000
+      internalID: -4158337883346128660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run Ice_14
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 360
+        width: 101
+        height: 151
+      alignment: 9
+      pivot: {x: 0.5, y: 0.00020250738}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b14e86b54f922c50800000000000000
+      internalID: 6639043922461868470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run Ice_15
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 360
+        width: 109
+        height: 153
+      alignment: 9
+      pivot: {x: 0.5015018, y: 0.0003159467}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5ca80a304e080510800000000000000
+      internalID: 1515476943624514654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run Ice_16
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 360
+        width: 107
+        height: 151
+      alignment: 9
+      pivot: {x: 0.5, y: -0.0008817761}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 849d05df80d6fed40800000000000000
+      internalID: 5615827145731397960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run Ice_17
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 360
+        width: 114
+        height: 151
+      alignment: 9
+      pivot: {x: 0.5, y: 0.00020250738}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d10ba31e554fc0610800000000000000
+      internalID: 1588913418243059741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
