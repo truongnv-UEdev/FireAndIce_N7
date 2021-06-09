@@ -1,0 +1,26 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class AnimationControllerIce : MonoBehaviour
+{
+    Animator animator;
+    IceCharacter character;
+    // Start is called before the first frame update
+    void Start()
+    {
+        animator = GetComponent<Animator>();
+        character = GetComponent<IceCharacter>();
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+
+        animator.SetBool("isJumping", character.GetIsJumping());
+
+        animator.SetBool("isRunning", character.GetIsRunning());
+
+        animator.SetBool("isPushing", character.GetIsPushing());
+    }
+}

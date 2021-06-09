@@ -7,6 +7,7 @@ public class FireCharacter : MonoBehaviour
 {
     bool isAlive = true;
     bool isJump = false;
+    bool isPushing = false;
     bool isRespawn = true;
     private float jumpForce = 7.0f;
     private float speed = 4.0f;
@@ -31,6 +32,7 @@ public class FireCharacter : MonoBehaviour
         {
             Respawn();
         }
+
     }
 
     void FixedUpdate()
@@ -109,7 +111,16 @@ public class FireCharacter : MonoBehaviour
 
     public bool GetIsRunning()
     {
-        return Mathf.Abs(rb.velocity.x) > 0;
+        return Mathf.Abs(rb.velocity.x) > 1;
+    }
+
+    public void SetIsPushing(bool IsPushing)
+    {
+        isPushing = IsPushing;
+    }
+    public bool GetIsPushing()
+    {
+        return isPushing;
     }
 
     public bool GetIsAlive()

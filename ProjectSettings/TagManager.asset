@@ -11,6 +11,7 @@ TagManager:
   - FireCharacter
   - IceCharacter
   - Enemy
+  - Object
   layers:
   - Default
   - TransparentFX

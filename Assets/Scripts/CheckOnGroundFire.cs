@@ -19,9 +19,18 @@ public class CheckOnGroundFire : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Ground" || collision.gameObject.tag == "Prop")
+        if (collision.gameObject.tag == "Ground" || collision.gameObject.tag == "Object")
         {
             character.SetIsJumping(false);
         }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Object")
+        {
+            character.SetIsPushing(true);
+        }
+        
     }
 }

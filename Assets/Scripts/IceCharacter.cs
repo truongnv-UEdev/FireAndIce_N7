@@ -7,6 +7,7 @@ public class IceCharacter : MonoBehaviour
 {
     bool isAlive = true;
     bool isJump = false;
+    bool isPushing = false;
     bool isRespawn = true;
     private float jumpForce = 7.0f;
     private float speed = 4.0f;
@@ -18,6 +19,7 @@ public class IceCharacter : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        GetComponent<SpriteRenderer>().flipX = true;
     }
 
     void Update()
@@ -25,6 +27,7 @@ public class IceCharacter : MonoBehaviour
         if (Input.GetButtonDown("JumpIce") && !isJumping)
         {
             isJump = true;
+
         }
         if (isRespawn)
         {
@@ -109,7 +112,16 @@ public class IceCharacter : MonoBehaviour
 
     public bool GetIsRunning()
     {
-        return Mathf.Abs(rb.velocity.x) > 0;
+        return Mathf.Abs(rb.velocity.x) > 1;
+    }
+
+    public void SetIsPushing(bool IsPushing)
+    {
+        isPushing = IsPushing;
+    }
+    public bool GetIsPushing()
+    {
+        return isPushing;
     }
 
     public bool GetIsAlive()
