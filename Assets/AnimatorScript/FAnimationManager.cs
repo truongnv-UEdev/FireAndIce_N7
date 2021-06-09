@@ -16,15 +16,10 @@ public class FAnimationManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (character.GetIsJumping())
-        {
-            animator.SetBool("isJumping", true);
-        } else animator.SetBool("isJumping", false);
 
-        if (character.GetIsRunning())
-        {
-            animator.SetBool("isRunning", true);
-        }
-        else animator.SetBool("isRunning", false);
+        animator.SetBool("isJumping", character.GetIsJumping());
+
+
+        animator.SetBool("isRunning", character.GetIsRunning());
     }
 }
