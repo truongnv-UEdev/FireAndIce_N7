@@ -365,6 +365,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: cb0fc25ade571424fb22cccaccc23835, type: 3}
+    - target: {fileID: 114216588896577322, guid: 8f4461d0e693b1347ad7f49902143528, type: 3}
+      propertyPath: m_FillAmount
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 114525434938129152, guid: 8f4461d0e693b1347ad7f49902143528, type: 3}
       propertyPath: m_PresetInfoIsWorld
       value: 0
@@ -399,7 +403,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 224089445433655320, guid: 8f4461d0e693b1347ad7f49902143528, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.9
+      value: 0.95
       objectReference: {fileID: 0}
     - target: {fileID: 224089445433655320, guid: 8f4461d0e693b1347ad7f49902143528, type: 3}
       propertyPath: m_LocalScale.y

@@ -22,5 +22,7 @@ public class AnimationControllerIce : MonoBehaviour
         animator.SetBool("isRunning", character.GetIsRunning());
 
         animator.SetBool("isPushing", character.GetIsPushing());
+
+        animator.SetBool("isAlive", character.GetIsAlive());
     }
 }
