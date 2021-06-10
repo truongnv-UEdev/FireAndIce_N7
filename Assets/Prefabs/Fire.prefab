@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1673176480364074645}
   - component: {fileID: 1673176480364074650}
   - component: {fileID: 1673176480364074644}
+  - component: {fileID: -9087930763664036669}
   m_Layer: 0
   m_Name: Fire
   m_TagString: Fire
@@ -109,3 +110,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 6.2, y: 1.2}
   m_EdgeRadius: 0
+--- !u!111 &-9087930763664036669
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1673176480364074651}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
