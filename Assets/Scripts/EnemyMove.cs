@@ -7,8 +7,8 @@ public class EnemyMove : MonoBehaviour
 {
     Rigidbody2D rb;
     int h = 1;
-    float speed = 2f;
-    public float timeMoveOneSide = 1;
+    public float speed = 2f;
+    public float timeMoveOneSide = 1f;
     float curTime;
     // Start is called before the first frame update
     void Start()
