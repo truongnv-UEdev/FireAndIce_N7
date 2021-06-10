@@ -12,7 +12,7 @@ public class GameMode : MonoBehaviour
     bool isGameEnd;
     int _numKeys;
     int currentLevel;
-
+    public float star2, star3;
     void Awake()
     {
         //Check Sound
@@ -43,7 +43,7 @@ public class GameMode : MonoBehaviour
         {
             isGameEnd = true;
 
-            Debug.Log(getCurrentTime());
+            
         }
 
         if (isGameEnd)
@@ -52,6 +52,7 @@ public class GameMode : MonoBehaviour
             if(currentLevel > PlayerPrefs.GetInt("level")) PlayerPrefs.SetInt("level", currentLevel);
             PlayerPrefs.SetInt("nextlevel", currentLevel + 1);
             PlayerPrefs.SetString("finishtime", getCurrentTime());
+            PlayerPrefs.SetInt("finishresult", Result());
         }
     }
     public void ResetGame()
@@ -82,13 +83,28 @@ public class GameMode : MonoBehaviour
 
     public string getCurrentTime()
     {
-        //float Min;
+        
         float Sec;
         double Min;
         Min = System.Math.Truncate(currentTime / 60);
         Sec = currentTime % 60;
         string time= (Min.ToString()+"m"+Sec.ToString()+"s");
         return (time);
+    }
+
+    int Result()
+    {
+        int numStar=3;
+        if (currentTime < star3)
+        {
+            numStar = 3;
+        }
+        else if (currentTime < star2)
+        {
+            numStar = 2;
+        }
+        else numStar = 1;
+        return numStar;
     }
 
     public string getNumKeys()
