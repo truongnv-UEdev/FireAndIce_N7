@@ -13,6 +13,7 @@ public class IceCharacter : MonoBehaviour
     private float speed = 4.0f;
     bool isJumping = false;
     public GameObject spawnPosition;
+    public AudioSource jumpSound, deadSound;
     Rigidbody2D rb;
 
     // Start is called before the first frame update
@@ -51,12 +52,7 @@ public class IceCharacter : MonoBehaviour
         {
             if (isAlive)
             {
-                isAlive = false;
-                Thread respawn = new Thread(() =>
-                {
-                    WaitToRespawn();
-                });
-                respawn.Start();
+                OnDeath();
             }
         }
     }
@@ -67,12 +63,7 @@ public class IceCharacter : MonoBehaviour
         {
             if (isAlive)
             {
-                isAlive = false;
-                Thread respawn = new Thread(() =>
-                {
-                    WaitToRespawn();
-                });
-                respawn.Start();
+                OnDeath();
             }
         }
     }
@@ -94,6 +85,7 @@ public class IceCharacter : MonoBehaviour
 
     void Jump()
     {
+        jumpSound.Play();
         isJump = false;
         isJumping = true;
         rb.velocity = Vector3.zero;
@@ -129,6 +121,17 @@ public class IceCharacter : MonoBehaviour
         return isAlive;
     }
 
+    void OnDeath()
+    {
+        deadSound.Play();
+        isAlive = false;
+
+        Thread respawn = new Thread(() =>
+        {
+            WaitToRespawn();
+        });
+        respawn.Start();
+    }
     void WaitToRespawn()
     {
         Thread.Sleep(2000);

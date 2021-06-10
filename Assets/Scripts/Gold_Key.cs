@@ -5,10 +5,11 @@ using UnityEngine;
 public class Gold_Key : MonoBehaviour
 {
     public GameMode manager;
+    bool DoOnce;
     // Start is called before the first frame update
     void Start()
     {
-        
+        DoOnce = true;
     }
 
     // Update is called once per frame
@@ -21,8 +22,13 @@ public class Gold_Key : MonoBehaviour
     {
         if(collision.transform.tag == "FireCharacter" || collision.transform.tag == "IceCharacter")
         {
-            manager.setNumKey();
-            Destroy(this.gameObject);
+            if (DoOnce)
+            {
+                Destroy(this.gameObject);
+                manager.setNumKey();
+                DoOnce = false;
+            }
+            
         }
     }
 }

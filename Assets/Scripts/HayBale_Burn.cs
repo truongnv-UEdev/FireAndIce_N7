@@ -7,9 +7,14 @@ public class HayBale_Burn : MonoBehaviour
 {
     // Start is called before the first frame update
     bool isDestroy;
+    bool isDoOnce;
     public ParticleSystem fire, spark, glow;
+    AudioSource fireSound;
     void Start()
     {
+        isDestroy = false;
+        isDoOnce = true;
+        fireSound = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -24,6 +29,11 @@ public class HayBale_Burn : MonoBehaviour
     {
         if (collision.transform.tag == "FireCharacter")
         {
+            if (isDoOnce)
+            {
+                fireSound.Play();
+                isDoOnce = false;
+            }
             fire.Play();
             spark.Play();
             glow.Play();

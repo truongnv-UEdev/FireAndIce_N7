@@ -9,6 +9,7 @@ public class Water_Ice : MonoBehaviour
     bool isFreeze;
     bool isVaporize;
     bool isIceStanding;
+    AudioSource freezing;
     public Sprite iceSprite;
     public Sprite waterSprite;
     void Start()
@@ -16,6 +17,7 @@ public class Water_Ice : MonoBehaviour
         isFreeze = false;
         isVaporize = false;
         isIceStanding = false;
+        freezing = GetComponent<AudioSource>();
         this.gameObject.GetComponent<BoxCollider2D>().isTrigger = true;
     }
 
@@ -72,6 +74,7 @@ public class Water_Ice : MonoBehaviour
 
     void freezeObject()
     {
+        freezing.Play();
         this.gameObject.GetComponent<SpriteRenderer>().sprite = iceSprite;
         this.gameObject.GetComponent<BoxCollider2D>().isTrigger = false;
         isFreeze = true;

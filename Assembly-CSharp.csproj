@@ -72,10 +72,10 @@
     <Compile Include="Assets\UI\AlpacaStudio_Menu_Template\Scripts\Menu_Controller.cs" />
     <Compile Include="Assets\Scripts\CheckOnGroundFire.cs" />
     <Compile Include="Assets\UI\PlayUI.cs" />
-    <Compile Include="Assets\AnimatorScript\FAnimationManager.cs" />
     <Compile Include="Assets\Scripts\IceCharacter.cs" />
     <Compile Include="Assets\UI\AlpacaStudio_Menu_Template\Scripts\Sound_Controller.cs" />
     <Compile Include="Assets\UI\LevelManager.cs" />
+    <Compile Include="Assets\Scripts\DoorOpen.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

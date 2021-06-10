@@ -13,6 +13,7 @@ public class FireCharacter : MonoBehaviour
     private float speed = 4.0f;
     bool isJumping = false;
     public GameObject spawnPosition;
+    public AudioSource jumpSound, deadSound;
     Rigidbody2D rb;
 
     // Start is called before the first frame update
@@ -50,12 +51,7 @@ public class FireCharacter : MonoBehaviour
         {
             if (isAlive)
             {
-                isAlive = false;
-                Thread respawn = new Thread(() =>
-                {
-                    WaitToRespawn();
-                });
-                respawn.Start();
+                OnDeath();
             }  
         }
     }
@@ -66,12 +62,7 @@ public class FireCharacter : MonoBehaviour
         {
             if (isAlive)
             {
-                isAlive = false;
-                Thread respawn = new Thread(() =>
-                {
-                    WaitToRespawn();
-                });
-                respawn.Start();
+                OnDeath();
             }
         }
     }
@@ -95,6 +86,7 @@ public class FireCharacter : MonoBehaviour
     {
         isJump = false;
         isJumping = true;
+        jumpSound.Play();
         rb.velocity = Vector3.zero;
         rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
     }
@@ -126,6 +118,18 @@ public class FireCharacter : MonoBehaviour
     public bool GetIsAlive()
     {
         return isAlive;
+    }
+
+    void OnDeath()
+    {
+        deadSound.Play();
+        isAlive = false;
+
+        Thread respawn = new Thread(() =>
+        {
+            WaitToRespawn();
+        });
+        respawn.Start();
     }
 
     void WaitToRespawn()

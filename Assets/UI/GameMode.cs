@@ -13,6 +13,7 @@ public class GameMode : MonoBehaviour
     int _numKeys;
     int currentLevel;
     public float star2, star3;
+    public AudioSource soundKey;
     void Awake()
     {
         //Check Sound
@@ -39,12 +40,6 @@ public class GameMode : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(_numKeys >= numberOfKey)
-        {
-            isGameEnd = true;
-
-            
-        }
 
         if (isGameEnd)
         {
@@ -111,15 +106,26 @@ public class GameMode : MonoBehaviour
     {
         return _numKeys.ToString();
     }
-    
+
+    public int getNumberKeys()
+    {
+        return _numKeys;
+    }
+
     public void setNumKey()
     {
         _numKeys+=1;
+        soundKey.Play();
         Debug.Log(_numKeys);
     }
 
     public bool getIsEndGame()
     {
         return isGameEnd;
+    }
+
+    public void setIsEndGame(bool IsEndGame)
+    {
+        isGameEnd = IsEndGame;
     }
 }
