@@ -170,12 +170,12 @@ GameObject:
   m_Component:
   - component: {fileID: 671638412792012823}
   - component: {fileID: 8166183356892689355}
-  - component: {fileID: 6774489678131904372}
   - component: {fileID: 3989043362982246689}
   - component: {fileID: -3837235384729253940}
   - component: {fileID: 3992592086572102234}
   - component: {fileID: 2481509594404658361}
   - component: {fileID: 5499519418534867612}
+  - component: {fileID: 5882388433638431384}
   m_Layer: 0
   m_Name: FireCharacter
   m_TagString: FireCharacter
@@ -220,21 +220,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
---- !u!114 &6774489678131904372
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1921097079754057348}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5a202e701ab2f4a458bd53f95350201c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spawnPosition: {fileID: 0}
-  jumpSound: {fileID: 2527404430378544190}
-  deadSound: {fileID: 3130541465876095273}
 --- !u!212 &3989043362982246689
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -359,6 +344,21 @@ CircleCollider2D:
   m_Offset: {x: -0.27, y: 1.3}
   serializedVersion: 2
   m_Radius: 1.3
+--- !u!114 &5882388433638431384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1921097079754057348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a202e701ab2f4a458bd53f95350201c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnPosition: {fileID: 0}
+  jumpSound: {fileID: 2527404430378544190}
+  deadSound: {fileID: 3130541465876095273}
 --- !u!1 &2296494004478101050
 GameObject:
   m_ObjectHideFlags: 0

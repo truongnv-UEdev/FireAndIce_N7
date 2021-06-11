@@ -43,11 +43,7 @@ public class GameMode : MonoBehaviour
 
         if (isGameEnd)
         {
-            PlayerPrefs.SetInt("nextlevel", currentLevel+1);
-            if(currentLevel > PlayerPrefs.GetInt("level")) PlayerPrefs.SetInt("level", currentLevel);
-            PlayerPrefs.SetInt("nextlevel", currentLevel + 1);
-            PlayerPrefs.SetString("finishtime", getCurrentTime());
-            PlayerPrefs.SetInt("finishresult", Result());
+            ChangeScene();
         }
     }
     public void ResetGame()
@@ -60,8 +56,6 @@ public class GameMode : MonoBehaviour
 
     public void BackToMenu()
     {
-
-        //currentTime = 0;
         SceneManager.LoadScene("MainMenuUI");
         //Application.LoadLevel(Application.loadedLevel);
     }
@@ -127,5 +121,14 @@ public class GameMode : MonoBehaviour
     public void setIsEndGame(bool IsEndGame)
     {
         isGameEnd = IsEndGame;
+    }
+
+    void ChangeScene()
+    {
+        PlayerPrefs.SetInt("nextlevel", currentLevel + 1);
+        if (currentLevel > PlayerPrefs.GetInt("level")) PlayerPrefs.SetInt("level", currentLevel);
+        PlayerPrefs.SetInt("nextlevel", currentLevel + 1);
+        PlayerPrefs.SetString("finishtime", getCurrentTime());
+        PlayerPrefs.SetInt("finishresult", Result());
     }
 }

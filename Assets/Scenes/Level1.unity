@@ -35565,6 +35565,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FireCharacter
       objectReference: {fileID: 0}
+    - target: {fileID: 5882388433638431384, guid: b997143c79c68e9439420551199272d5, type: 3}
+      propertyPath: spawnPosition
+      value: 
+      objectReference: {fileID: 1149456641}
     - target: {fileID: 6774489678131904372, guid: b997143c79c68e9439420551199272d5, type: 3}
       propertyPath: spawnPosition
       value: 

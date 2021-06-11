@@ -5,12 +5,12 @@ using UnityEngine;
 public class AnimationControllerIce : MonoBehaviour
 {
     Animator animator;
-    IceCharacter character;
+    Character character;
     // Start is called before the first frame update
     void Start()
     {
         animator = GetComponent<Animator>();
-        character = GetComponent<IceCharacter>();
+        character = GetComponent<Character>();
     }
 
     // Update is called once per frame
