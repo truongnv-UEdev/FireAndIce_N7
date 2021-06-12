@@ -30,7 +30,7 @@ public class PlayUI : MonoBehaviour
         txtTime.text = manager.getCurrentTime();
         if (manager.getIsEndGame())
         {
-            SceneManager.LoadScene(6);
+            SceneManager.LoadScene("EndLevelUI");
         }
     }
 

@@ -141,4 +141,14 @@ public class Character : MonoBehaviour
         this.transform.position = spawnPosition.transform.position;
         isAlive = true;
     }
+
+    public void SetSpeed(float Speed)
+    {
+        speed = Speed;
+    }
+
+    public void SetJumpForce(float JumpForce)
+    {
+        jumpForce = JumpForce;
+    }
 }
