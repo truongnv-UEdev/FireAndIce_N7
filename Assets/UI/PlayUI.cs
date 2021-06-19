@@ -12,10 +12,12 @@ public class PlayUI : MonoBehaviour
     GameMode manager;
     public AudioClip _audioClip;
     public AudioSource _audioSource;
+    public GameObject helpPanel;
 
     // Start is called before the first frame update
     void Start()
     {
+        helpPanel.SetActive(false);
         manager = GetComponent<GameMode>();
         txtTime = textTime.GetComponent<Text>();
         txtKey = textKey.GetComponent<Text>();
@@ -59,5 +61,13 @@ public class PlayUI : MonoBehaviour
         {
             btnSound.color = Color.green;
         }
+    }
+
+    public void ShowHelp()
+    {
+        if(helpPanel.activeSelf == true)
+        {
+            helpPanel.SetActive(false);
+        } else helpPanel.SetActive(true);
     }
 }

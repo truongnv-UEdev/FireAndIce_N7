@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class Menu_Controller : MonoBehaviour {
 
 	[Tooltip("_sceneToLoadOnPlay is the name of the scene that will be loaded when users click play")]
-	public string _sceneToLoadOnPlay = "Level";
+	public string _sceneToLoadOnPlay = "Level1";
 	
 	[Tooltip("_soundButtons define the SoundOn[0] and SoundOff[1] Button objects.")]
 	public Button[] _soundButtons;

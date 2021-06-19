@@ -14,6 +14,7 @@ ScriptsOnlyBuild:
     - HayBale_Burn
     - IceCharacter
     - Ice_Controller
+    - IntroManager
     - LevelManager
     - Menu_Controller
     - Music_Player
@@ -45,10 +46,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -64,6 +63,53 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Image
     - UnityEngine.UI.Text
   sceneClasses:
+    Assets/Scenes/IntroVideo.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1454}
+    - Class: 114
+      Script: {instanceID: 2624}
+    - Class: 114
+      Script: {instanceID: 2786}
+    - Class: 114
+      Script: {instanceID: 3006}
+    - Class: 114
+      Script: {instanceID: 3248}
+    - Class: 114
+      Script: {instanceID: 4748}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 328
+      Script: {instanceID: 0}
+    - Class: 329
+      Script: {instanceID: 0}
     Assets/Scenes/Level1.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -144,11 +190,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3836}
     - Class: 114
-      Script: {instanceID: 5062}
+      Script: {instanceID: 5064}
     - Class: 114
-      Script: {instanceID: 5146}
+      Script: {instanceID: 5148}
     - Class: 114
-      Script: {instanceID: 5656}
+      Script: {instanceID: 5658}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -257,11 +303,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3836}
     - Class: 114
-      Script: {instanceID: 5062}
+      Script: {instanceID: 5064}
     - Class: 114
-      Script: {instanceID: 5146}
+      Script: {instanceID: 5148}
     - Class: 114
-      Script: {instanceID: 5656}
+      Script: {instanceID: 5658}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -350,7 +396,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2624}
     - Class: 114
+      Script: {instanceID: 2786}
+    - Class: 114
       Script: {instanceID: 3006}
+    - Class: 114
+      Script: {instanceID: 3248}
     - Class: 114
       Script: {instanceID: 3360}
     - Class: 114
@@ -366,11 +416,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3836}
     - Class: 114
-      Script: {instanceID: 5062}
+      Script: {instanceID: 5064}
     - Class: 114
-      Script: {instanceID: 5146}
+      Script: {instanceID: 5148}
     - Class: 114
-      Script: {instanceID: 5656}
+      Script: {instanceID: 5658}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -392,83 +442,6 @@ ScriptsOnlyBuild:
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
-      Script: {instanceID: 0}
-    - Class: 19719996
-      Script: {instanceID: 0}
-    - Class: 156049354
-      Script: {instanceID: 0}
-    - Class: 483693784
-      Script: {instanceID: 0}
-    - Class: 1839735485
-      Script: {instanceID: 0}
-    Assets/Scenes/Level4.unity:
-    - Class: 1
-      Script: {instanceID: 0}
-    - Class: 4
-      Script: {instanceID: 0}
-    - Class: 20
-      Script: {instanceID: 0}
-    - Class: 21
-      Script: {instanceID: 0}
-    - Class: 28
-      Script: {instanceID: 0}
-    - Class: 48
-      Script: {instanceID: 0}
-    - Class: 50
-      Script: {instanceID: 0}
-    - Class: 58
-      Script: {instanceID: 0}
-    - Class: 61
-      Script: {instanceID: 0}
-    - Class: 62
-      Script: {instanceID: 0}
-    - Class: 70
-      Script: {instanceID: 0}
-    - Class: 74
-      Script: {instanceID: 0}
-    - Class: 81
-      Script: {instanceID: 0}
-    - Class: 82
-      Script: {instanceID: 0}
-    - Class: 83
-      Script: {instanceID: 0}
-    - Class: 91
-      Script: {instanceID: 0}
-    - Class: 95
-      Script: {instanceID: 0}
-    - Class: 104
-      Script: {instanceID: 0}
-    - Class: 114
-      Script: {instanceID: 622}
-    - Class: 114
-      Script: {instanceID: 1534}
-    - Class: 114
-      Script: {instanceID: 1666}
-    - Class: 114
-      Script: {instanceID: 1984}
-    - Class: 114
-      Script: {instanceID: 3534}
-    - Class: 114
-      Script: {instanceID: 3542}
-    - Class: 114
-      Script: {instanceID: 3810}
-    - Class: 114
-      Script: {instanceID: 5062}
-    - Class: 114
-      Script: {instanceID: 5656}
-    - Class: 115
-      Script: {instanceID: 0}
-    - Class: 157
-      Script: {instanceID: 0}
-    - Class: 196
-      Script: {instanceID: 0}
-    - Class: 198
-      Script: {instanceID: 0}
-    - Class: 199
-      Script: {instanceID: 0}
-    - Class: 212
-      Script: {instanceID: 0}
-    - Class: 213
       Script: {instanceID: 0}
     - Class: 19719996
       Script: {instanceID: 0}
@@ -558,11 +531,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3836}
     - Class: 114
-      Script: {instanceID: 5062}
+      Script: {instanceID: 5064}
     - Class: 114
-      Script: {instanceID: 5146}
+      Script: {instanceID: 5148}
     - Class: 114
-      Script: {instanceID: 5656}
+      Script: {instanceID: 5658}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -694,9 +667,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3836}
     - Class: 114
-      Script: {instanceID: 5146}
+      Script: {instanceID: 5148}
     - Class: 114
-      Script: {instanceID: 5666}
+      Script: {instanceID: 5668}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -755,7 +728,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3740}
     - Class: 114
-      Script: {instanceID: 5146}
+      Script: {instanceID: 5148}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1129,7 +1102,7 @@ ScriptsOnlyBuild:
     className: HayBale_Burn
   - hash:
       serializedVersion: 2
-      Hash: 9f60194a68dc8669a30329f704736806
+      Hash: 3f9c48cd20c0c87ed056aaf8a180b532
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: FireCharacter
@@ -1183,7 +1156,7 @@ ScriptsOnlyBuild:
     className: BaseInput
   - hash:
       serializedVersion: 2
-      Hash: aab2e8a0538a4b4cb6fac4f93d1104d7
+      Hash: f995ffc798766576d606092312eac715
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayUI
@@ -1339,6 +1312,12 @@ ScriptsOnlyBuild:
     className: SpriteSkinEntity
   - hash:
       serializedVersion: 2
+      Hash: 3f7da4a9804e11ae498103a43f4d2a5a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: IntroManager
+  - hash:
+      serializedVersion: 2
       Hash: 28cfb4bd305dd11c6326cc3ee7c14138
     assemblyName: Unity.2D.Animation.Runtime.dll
     namespaceName: UnityEngine.Experimental.U2D.Animation
@@ -1357,7 +1336,7 @@ ScriptsOnlyBuild:
     className: TMP_SubMeshUI
   - hash:
       serializedVersion: 2
-      Hash: 9f60194a68dc8669a30329f704736806
+      Hash: 3f9c48cd20c0c87ed056aaf8a180b532
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: IceCharacter
@@ -1429,12 +1408,12 @@ ScriptsOnlyBuild:
     className: LevelManager
   platform: 19
   scenePathNames:
-  - Assets/UI/MainMenuUI.unity
+  - Assets/Scenes/IntroVideo.unity
   - Assets/Scenes/Level1.unity
   - Assets/Scenes/Level5.unity
   - Assets/Scenes/Level2.unity
   - Assets/Scenes/Level3.unity
-  - Assets/Scenes/Level4.unity
   - Assets/UI/LoadGameUI.unity
   - Assets/UI/EndLevelUI.unity
-  playerPath: E:/Hoctap/Ky2_4/Game/Final/Build/FireAndIce_N7.exe
+  - Assets/UI/MainMenuUI.unity
+  playerPath: E:/Unity/Build/FireAndIce/FireAndIce_N7.exe

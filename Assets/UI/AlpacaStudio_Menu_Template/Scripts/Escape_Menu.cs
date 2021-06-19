@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class Escape_Menu : MonoBehaviour {
 
 	void Update () {
-		if(Input.GetKeyDown(KeyCode.Escape)) UnityEngine.SceneManagement.SceneManager.LoadScene(PlayerPrefs.GetString("_LastScene"));
+		if(Input.GetButtonDown("Cancel")) UnityEngine.SceneManagement.SceneManager.LoadScene(PlayerPrefs.GetString("_LastScene"));
 	}
 
 	public void chooseLevel1()

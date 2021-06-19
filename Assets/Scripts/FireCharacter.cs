@@ -5,16 +5,12 @@ using UnityEngine;
 
 public class FireCharacter : Character
 {
-    public float speed = 4.0f;
-    public float jumpForce = 7.0f;
 
     // Start is called before the first frame update
     void Start()
     {
         SetRigidbody2D(GetComponent<Rigidbody2D>());
         SetInputHorizontalName("HorizontalFire");
-        SetSpeed(speed);
-        SetJumpForce(jumpForce);
     }
 
     void Update()

@@ -48,16 +48,12 @@ public class GameMode : MonoBehaviour
     }
     public void ResetGame()
     {
-
-        //currentTime = 0;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name.ToString());
-        //Application.LoadLevel(Application.loadedLevel);
     }
 
     public void BackToMenu()
     {
         SceneManager.LoadScene("MainMenuUI");
-        //Application.LoadLevel(Application.loadedLevel);
     }
 
     void TimeCal()
